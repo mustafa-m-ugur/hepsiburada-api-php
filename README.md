@@ -18,7 +18,7 @@ composer require mustafa-m-ugur/hepsiburada-api-php
 use CMD\Hepsiburada\Hepsiburada;
 
 $isTeststage = true;
-$hepsiburada  = new Hepsiburada({username},{password},{merchantid},$isTestStage);
+$hepsiburada  = new Hepsiburada('xxxxxxxx','xxxxxxx','xxxxxx',$isTestStage);
 ```
 
 ## Listing & Product
@@ -28,7 +28,7 @@ $hepsiburada  = new Hepsiburada({username},{password},{merchantid},$isTestStage)
 use CMD\Hepsiburada\Hepsiburada;
 
 $isTeststage = true;
-$hepsiburada  = new Hepsiburada({username},{password},{merchantid},$isTestStage);
+$hepsiburada  = new Hepsiburada('xxxxxxxx','xxxxxxx','xxxxxx',$isTestStage);
 
 /**
  *
@@ -205,7 +205,7 @@ $requestStatusList = [
 use CMD\Hepsiburada\Hepsiburada;
 
 $isTeststage = true;
-$hepsiburada  = new Hepsiburada({username},{password},{merchantid},$isTestStage);
+$hepsiburada  = new Hepsiburada('xxxxxxxx','xxxxxxx','xxxxxx',$isTestStage);
 
 /**
  *
@@ -247,7 +247,7 @@ $hepsiburada->category->getCategoryAttributes($categoryID);
 use CMD\Hepsiburada\Hepsiburada;
 
 $isTeststage = true;
-$hepsiburada  = new Hepsiburada({username},{password},{merchantid},$isTestStage);
+$hepsiburada  = new Hepsiburada('xxxxxxxx','xxxxxxx','xxxxxx',$isTestStage);
 
 /**
  *
