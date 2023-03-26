@@ -1,0 +1,19 @@
+{
+  "name": "mustafa-m-ugur/hepsiburada-php-api",
+  "description": "HEPSIBURADA API PHP",
+  "type": "library",
+  "keywords": ["hepsiburada", "e-commerce", "api", "marketplaces", "php", "integration"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mustafa UĞUR",
+      "email": "mustafa.m.ugur27@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CMD\\": "CMD"
+    }
+  },
+  "minimum-stability": "stable"
+}
